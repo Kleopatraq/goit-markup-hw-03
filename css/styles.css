@@ -1,0 +1,338 @@
+:root {
+    --background-main-color: #ffffff;
+    --background-second-color: #2E2F42;
+    --main-title-color: #2E2F42;
+    --main-text-color: #434455;
+    --porttfolio-background-color: #ffffff;
+    --portfolio-title-color: #2E2F42;
+    --portfolio-text-color: #434455;
+    --portfolio-title-font-weight: 500;
+    --body-background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: var(--body-background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+/*---------------HEADER---------------*/
+.header {
+    background: var(--background-main-color, #ffffff);
+    padding-top: 25.5px;
+}
+
+.header-navigation {}
+
+.header-logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-list {}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
+}
+
+.header-item {}
+
+.header-contact {
+    font-style: normal;
+}
+
+.header-contact-list {}
+
+.header-contact-item {}
+
+.header-contact-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: #404bbf;
+}
+
+
+/*---------------HERO---------------*/
+.hero {
+    background-color: #2e2f42;
+    padding-top: 188px;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+/*---------------ADVANTAGES---------------*/
+.advantages {
+    background-color: #FFFFFF;
+    padding-top: 120px;
+}
+
+.advantages-top-title {}
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color, #2E2F42);
+}
+
+.advantages-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color, #434455);
+}
+
+/*---------------WORKS---------------*/
+.works {
+    background-color: #FFFFFF;
+    padding-top: 120px;
+}
+
+.works-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color, #2E2F42);
+}
+
+.works-list {}
+
+.works-item {}
+
+/*---------------TEAM---------------*/
+.team {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title-color, );
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-title-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*---------------FOOTER---------------*/
+.footer {
+    background: var(--background-second-color, #2E2F42);
+    padding-top: 100px;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/*---------------PORTFOLIO---------------*/
+.portfolio {
+    background-color: var(--background-main-color, #ffffff);
+
+}
+
+.button-menu-list {
+    padding-top: 96px;
+}
+
+.button-menu-item {}
+
+.button-menu-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.button-menu-btn:hover,
+.button-menu-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+
+.portfolio-list {
+    padding-top: 72px;
+}
+
+.portfolio-item {}
+
+.banking-title {}
+
+.banking-text {}
+
+.portfolio-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: var(--portfolio-title-font-weight, 500);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-title-color, #2E2F42);
+}
+
+.portfolio-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-text-color, #2E2F42);
+}

@@ -188,6 +188,7 @@ body {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--main-text-color, #434455);
+    margin-top: 8px;
 }
 
 /*---------------WORKS---------------*/
@@ -221,7 +222,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--main-title-color, );
+    color: var(--main-title-color);
 }
 
 .team-list {}
@@ -235,6 +236,7 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     background-color: #FFFFFF;
+    margin-top: 32px;
 }
 
 .team-text {
@@ -242,6 +244,7 @@ body {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
 }
 
 /*---------------FOOTER---------------*/
@@ -326,6 +329,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--portfolio-title-color, #2E2F42);
+    margin-top: 32px;
 }
 
 .portfolio-text {
@@ -335,4 +339,5 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--portfolio-text-color, #2E2F42);
+    margin-top: 8px;
 }

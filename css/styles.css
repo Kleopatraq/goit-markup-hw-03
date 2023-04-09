@@ -69,7 +69,15 @@ body {
     padding-top: 25.5px;
 }
 
-.header-navigation {}
+.header-container {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 
 .header-logo-web {
     font-family: "Raleway", sans-serif;
@@ -89,9 +97,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
+    margin-right: 76px;
 }
 
-.header-list {}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-link {
     font-weight: 500;
@@ -99,6 +112,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: flex;
+    gap: 40px;
 }
 
 .header-link:hover,
@@ -106,13 +121,20 @@ body {
     color: #404bbf;
 }
 
-.header-item {}
+.header-item {
+    display: flex;
+    gap: 40px;
+}
 
 .header-contact {
     font-style: normal;
 }
 
-.header-contact-list {}
+.header-contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-contact-item {}
 
@@ -129,22 +151,33 @@ body {
     color: #404bbf;
 }
 
-
 /*---------------HERO---------------*/
+
 .hero {
     background-color: #2e2f42;
     padding-top: 188px;
+    margin: 0 auto;
 }
 
 .hero-title {
+    min-width: 496px;
+    height: 120px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+.hero-container-bnt {
+    display: flex;
+    padding-bottom: 188px;
 }
 
 .hero-btn {
+    min-width: 169px;
+    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -154,7 +187,10 @@ body {
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
-    margin-top: 48px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -169,13 +205,18 @@ body {
     padding-top: 120px;
 }
 
-.advantages-top-title {}
+.wrap {
+    display: flex;
+    gap: 24px;
+}
 
 .advantages-list {}
 
 .advantages-item {}
 
 .advantages-title {
+    width: 264px;
+    height: 24px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -184,6 +225,8 @@ body {
 }
 
 .advantages-text {
+    width: 264px;
+    height: 72px;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -197,6 +240,11 @@ body {
     padding-top: 120px;
 }
 
+.wrap-wors {
+    display: flex;
+    gap: 24px;
+}
+
 .works-title {
     font-size: 36px;
     line-height: 1.11;
@@ -204,16 +252,23 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color, #2E2F42);
+    margin-bottom: 72px;
 }
 
 .works-list {}
 
-.works-item {}
+.works-item {
+    padding-bottom: 120px;
+}
 
 /*---------------TEAM---------------*/
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
+}
+
+.wrap-team {
+    display: flex;
 }
 
 .team-title {

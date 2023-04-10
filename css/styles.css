@@ -155,23 +155,27 @@ body {
 
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    margin: 0 auto;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-title {
     min-width: 496px;
-    height: 120px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-top: 188px;
     margin-bottom: 48px;
 }
 
 .hero-container-bnt {
-    display: flex;
+    display: block;
     padding-bottom: 188px;
 }
 

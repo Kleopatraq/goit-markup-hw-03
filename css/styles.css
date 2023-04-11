@@ -60,13 +60,15 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+
 }
 
 /*---------------HEADER---------------*/
 .header {
     background: var(--background-main-color, #ffffff);
-    padding-top: 25.5px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -154,7 +156,10 @@ body {
 /*---------------HERO---------------*/
 
 .hero {
-    background-color: #2e2f42;
+    padding: 188px 0px;
+    background: #2e2f42;
+
+
 }
 
 .hero-container {
@@ -170,18 +175,15 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    padding-top: 188px;
     margin-bottom: 48px;
 }
 
 .hero-container-bnt {
     display: block;
-    padding-bottom: 188px;
+
 }
 
 .hero-btn {
-    min-width: 169px;
-    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -195,6 +197,7 @@ body {
     padding: 16px 32px;
     gap: 10px;
     margin: 0 auto;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -241,7 +244,7 @@ body {
 /*---------------WORKS---------------*/
 .works {
     background-color: #FFFFFF;
-    padding-top: 120px;
+    padding: 120px 0px;
 }
 
 .wrap-wors {
@@ -261,14 +264,13 @@ body {
 
 .works-list {}
 
-.works-item {
-    padding-bottom: 120px;
-}
+.works-item {}
 
 /*---------------TEAM---------------*/
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .container-team {}
@@ -285,23 +287,20 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-title-color);
-    padding-top: 120px;
-}
-
-
-.team-list {
-    padding-top: 72px;
-    padding-bottom: 152px;
+    margin-bottom: 72px;
 }
 
 .team-card {
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
+    padding: 32px 16px;
 }
 
-.team-item {}
+.team-list {}
 
-.team-item {}
+.team-item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-title-item {
     font-weight: 500;
@@ -310,7 +309,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 32px;
 }
 
 .team-text {
@@ -320,15 +318,13 @@ body {
     text-align: center;
     color: #434455;
     margin-top: 8px;
-    padding-bottom: 32px;
-
 }
 
 
 /*---------------FOOTER---------------*/
 .footer {
     background: var(--background-second-color, #2E2F42);
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .wrap-footer {}
@@ -359,13 +355,12 @@ body {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     margin-top: 16px;
-    padding-bottom: 100px;
 }
 
 /*---------------PORTFOLIO---------------*/
 .portfolio {
     background-color: var(--background-main-color, #ffffff);
-
+    padding: 96px 0px 120px 0px;
 }
 
 
@@ -375,15 +370,15 @@ body {
     gap: 24px;
 }
 
-.button-menu-item {}
+.button-menu-item {
+    margin-bottom: ;
+}
 
 .button-menu-list {
-    padding-top: 96px;
+    margin-bottom: 72px;
 }
 
 .button-menu-btn {
-    min-width: 116px;
-    height: 48px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -391,28 +386,27 @@ body {
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     cursor: pointer;
-    border: 0;
+    border: none;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
 }
 
 .button-menu-btn:hover,
 .button-menu-btn:focus {
     color: #FFFFFF;
-    background: #404BBF;
+    background-color: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-container {}
-
-.portfolio-list {
-    padding-top: 72px;
-    padding-bottom: 120px;
-
-}
+.portfolio-list {}
 
 .wrap-portfolio {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
 }
 
@@ -430,8 +424,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--portfolio-title-color, #2E2F42);
-    margin-top: 32px;
-    padding-left: 16px;
+
+
 }
 
 .portfolio-text {
@@ -442,11 +436,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--portfolio-text-color, #2E2F42);
     margin-top: 8px;
-    padding-bottom: 48px;
-    padding-left: 16px;
-
 }
 
 .portfolio-card {
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
